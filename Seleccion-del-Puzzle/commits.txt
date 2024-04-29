@@ -1,0 +1,15 @@
+el app-respaldo se almacena en arrayPiezas
+
+1) En el app se intentará implementar la logica de setear en localstorage para los usuarios,
+es decir temporalmente aqui tambien se crearan distintos Usuarios dentro de la variable UsuarioActual,
+(esta variable se estará cambiando) ademas de eso tener la variable ultPartidaGanada e irle 
+asignando un valor arbitrario, comenzando con 0 y si se vuelve a escribir el mismo usuario asignarle
+el valor 1, y asi sucesivamente
+Estos datos son simulados y se obtienen del siguiente objeto:
+usuarios = [{"nickname": "...", "numUltimaPartida": "..."}]
+
+es decir: 	X imagenVisible-${UsuarioActual},
+		X numFilyCol-${UsuarioActual} 
+		X arrayPiezas-${UsuarioActual}, 
+		X movimientosrealizados-${UsuarioActual},	//la creacion de este con valor inicial 0 tiene que pasarse a crearse en el HTML inicio
+		

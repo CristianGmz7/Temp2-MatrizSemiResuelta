@@ -1,0 +1,27 @@
+1) El app se ha implementado matrizInicial y desorganizarMatriz
+El app-respaldo es respaldo del app5 trabajado en carpeta UNIENDO SELECC IMG
+
+LISTO 2) El app3 es la implementacion del codigo Localstorage para usuarios (tiene matrizSemiResuelta enlazada)
+LISTO (CREO) 3) El app2 se intentará implementar la logica del localstorage para usuarios (copiar codigo del
+	app3 pero solo implementar los cambios que sean necesarios (en lugar de matrizSemiResuelta
+	que sea matrizInicial))
+
+LISTO 4) En el app4 se trabajará para guardar los datos de la partida (en un objeto) que iran al arreglo
+	usuariosEstadisticas = [], los datos que almacenará este objeto son:
+	{nickname: usuarioActual, numPartida: #, tiempo: #, numFilyCol: #, movHechos: #}
+	y en base a este objeto hacerle un push hacia el arreglo usuariosEstadisticas = []
+Este app4 se trabajará en base al app3 donde la matriz que se inicia es la matrizSemiResuelta
+
+LISTO 5) En el app5 se implementará lo del app4 pero aqui la matriz que se inicia es la matrizInicial desorganizada
+	(solo copiar las lineas que se agreguen del app4)
+
+LISTO 6) En el app4-1 se quiere ver si se puede cambiar el mensajes de Revolver Puzzle a Continuar Puzzle
+	En el app5-1 se usara como referencia el app4 donde la matriz que se inicia es matrizSemiResuelta
+LISTO 7) En el app5-1 se quiere ver si se puede cambiar el mensajes de Revolver Puzzle a Continuar Puzzle
+	En el app6-1 se usara como referencia el app5 donde la matriz que se inicia es matrizInicial Desorganizada
+
+ejemplo de matriz usuariosEstadisticas:
+{nickname: "ana7", numPartida: 1, tiempo: 32, numFilyCol: 4, movHechos: 18}
+{nickname: "cgomez70", numPartida: 1, tiempo: 35, numFilyCol: 3, movHechos: 24}
+{nickname: "anner25", numPartida: 1, tiempo: 115, numFilyCol: 3, movHechos: 122}
+
